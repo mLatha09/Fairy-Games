@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fdf6ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: #e0c3fc;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ecc4c4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 11, 8);
+}
+
+a:hover {
+    color: #ee7171;
+}
+.head {
+    margin-bottom: 40px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+}
+.hero-text {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.img-slider {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.img-slider img {
+    display: none;
+}
+
+.img-slider img:first-child {
+    display: block;
+
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.cards {
+
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.card {
+    text-decoration: none;
+   background-color: #f3d1f4;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+     font-size: 18px;
+    font-weight: 600;
+}
+
+.card:hover {
+     background-color: #f9a8d4;
+    transform: scale(1.05);
+}
+h1{
+    font-size: 2.5em;
+    color: #ee7171;
+   margin-left: 30px;
+
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #fcc7d4;
+    color: rgb(1, 11, 8);
+    margin-top: 40px;
+}
