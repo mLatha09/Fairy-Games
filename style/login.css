@@ -1,0 +1,108 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Soft pastel background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+    background: linear-gradient(135deg, #fceff9, #e0f7fa, #f8f9ff);
+}
+
+/* Card */
+.login-container {
+    width: 350px;
+    padding: 35px;
+
+    background: #ffffff;
+    border-radius: 20px;
+
+    box-shadow: 
+        0 10px 30px rgba(0,0,0,0.08);
+
+    text-align: center;
+}
+
+/* Title */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+    background: #f9f9f9;
+    color: #555;
+
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input focus */
+input:focus {
+    border-color: #ffb6c1;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.4);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #ffb6c1, #b5ead7);
+    color: #444;
+
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+}
+
+/* Error message */
+.error {
+    margin-top: 12px;
+    color: #ff6b6b;
+    font-size: 14px;
+}
+
+/* Smooth entry */
+.login-container {
+    animation: floatIn 0.8s ease;
+}
+
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
