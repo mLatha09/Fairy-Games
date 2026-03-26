@@ -50,7 +50,7 @@ fairy-games/
 
 ## 🔮 Future Improvements
 
-* 🔐 User Login System (PHP + MySQL)
+* 🔐<del> User Login System (PHP + MySQL)</del>
 * 💾 Save User Scores
 * 🎮 More Games (Puzzle, Guess, Number Game)
 * ⏱️ Timer-based Quiz Mode
